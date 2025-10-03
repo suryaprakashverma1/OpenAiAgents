@@ -183,6 +183,9 @@ Orchestrate a conversation between multiple agents.
 Run the included examples to see the library in action:
 
 ```bash
+# Library structure demo (no API key required)
+npm run demo
+
 # Basic agent usage
 npm start
 
@@ -193,18 +196,20 @@ node examples/specialized-agents.js
 node examples/agent-orchestration.js
 ```
 
+**Note:** All examples except the demo require an OpenAI API key. The demo showcases the library structure and API without making actual API calls.
+
 ## 🧪 Testing
 
-Run the test suite:
+Run the validation tests:
+
+```bash
+npm run validate
+```
+
+Run the Jest test suite (requires proper ES modules configuration):
 
 ```bash
 npm test
-```
-
-Run tests with coverage:
-
-```bash
-npm test -- --coverage
 ```
 
 ## 🛠️ Development

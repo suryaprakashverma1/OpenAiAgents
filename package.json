@@ -6,7 +6,9 @@
   "type": "module",
   "scripts": {
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "validate": "node validate.js",
     "start": "node examples/basic-agent.js",
+    "demo": "node examples/demo-without-api.js",
     "dev": "node --watch examples/basic-agent.js"
   },
   "keywords": ["openai", "agents", "ai", "chatbots", "automation"],
