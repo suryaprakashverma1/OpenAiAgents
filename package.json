@@ -1,0 +1,22 @@
+{
+  "name": "openaiagents",
+  "version": "1.0.0",
+  "description": "OpenAI Agents implementation with examples and utilities",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "start": "node examples/basic-agent.js",
+    "dev": "node --watch examples/basic-agent.js"
+  },
+  "keywords": ["openai", "agents", "ai", "chatbots", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
