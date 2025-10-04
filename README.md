@@ -7,5 +7,7 @@ uv pip install .
 uv pip install numpy
 .venv\Scripts\Activate.ps1
 
+ $env:OPENAI_API_KEY="key"
+
 cd to voice directory and run the static as module.
 python -m static.main
